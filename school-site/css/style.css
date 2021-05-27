@@ -79,20 +79,18 @@ header, footer {
 
 /* Imported Typfaces */
 @front-face {
-        font-family:
-        src:
-        font-weight:
-        font-style: 
+        font-family:Montserrat;
+        src:url(school-site\fonts\montserrat-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style: normal;
 
 }
 @font-face {
-    font-family:
-    src:
-    font-weight:
-    font-style: 
+    font-family:Josefinslab;
+    src:url(school-site\fonts\josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style: normal;
 }
-
-
 
 /* Typography Styles */
 
@@ -101,17 +99,17 @@ html {
 }
 
 h1 {
-    font-family: ;
-    letter-spacing: ;
-    font-size: ;
-    text-align: ;
-    margin: ;
+    font-family: josefinslab, garamond, serif ;
+    letter-spacing: .125rem;
+    font-size:3.75rem ;
+    text-align:center ;
+    margin: 1.125rem;
 }
 
 h2 {
-    font-family: ;
-    letter-spacing: ;
-    font-size: ;
+    font-family:Josefinslab, garamond, serif ;
+    letter-spacing: .125rem;
+    font-size: 1.5rem;
 }
 
 h2 + p {
@@ -120,16 +118,15 @@ h2 + p {
 }
 p,
 li {
-    font-size: ;
-    line-height: ;
-    letter-spacing: ;
-    word-break: ;
+    font-size: .75rem;
+    line-height: 1.5;
+    letter-spacing:.03125rem ;
+    word-break:.125rem ;
 }
 
 figcaption {
-    font-size: ;
-    margin-bottom: ;
-
+    font-size:.75rem ;
+    margin-bottom:2rem ;
 }
 
 }
@@ -144,7 +141,10 @@ a:link,
 a:visited {
     color: #33658A;
 }
-
+a:focus,
+a:hover {
+    text-decoration:none ;
+}
 
 /* List Styling */
 
@@ -170,14 +170,14 @@ nav {
 }
 
 nav a {
-    text-decoration: ;
-    display: ;
-    width: ;
-    line-height: ;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height:3 ;
     text-align: center;
-    font-size: ;
-    border: ;
-    margin-bottom: ;
+    font-size: 1.125rem;
+    border:.0625rem ;
+    margin-bottom:1.5rem ;
 }
 
 nav a: :focus,
