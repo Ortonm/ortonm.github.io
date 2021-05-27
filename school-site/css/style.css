@@ -78,7 +78,7 @@ header, footer {
 
 
 /* Imported Typfaces */
-@front-face {
+@font-face {
         font-family:Montserrat;
         src:url(school-site\fonts\montserrat-regular.ttf) format('truetype');
         font-weight:normal;
@@ -129,7 +129,6 @@ figcaption {
     margin-bottom:2rem ;
 }
 
-}
 
 /* Link Styling */
 
@@ -154,7 +153,7 @@ ul {
 }
 
 ol {
-    list-style-type: lower-alpha;
+    list-style-type:lowercase;
     margin: 1rem 0;
 }
 .long-list a:hover {
@@ -176,7 +175,7 @@ nav a {
     line-height:3 ;
     text-align: center;
     font-size: 1.125rem;
-    border:.0625rem ;
+    border:.0625rem solid #33658A ;
     margin-bottom:1.5rem ;
 }
 
