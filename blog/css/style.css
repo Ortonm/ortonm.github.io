@@ -48,4 +48,22 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+.main-section {
+    display: flex;
+}
+
+.article-image {
+    float: left;
+    margin:0 1rem 0 0;
+}
+
+.article-image + p{
+    margin-top: 0;
+}
+
+.subsection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-column-gap: 1%;
+}
 
