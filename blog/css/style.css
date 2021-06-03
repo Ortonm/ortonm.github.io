@@ -47,7 +47,12 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-
+@font-face {
+    font-family:sans-serif ;
+    src: local(fonts);
+    font-weight: normal;
+    font-style: normal;
+}
 .main-section {
     display: flex;
 }
