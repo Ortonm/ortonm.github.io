@@ -62,8 +62,8 @@
 }
 
 .subsection {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    display:grid;
+    grid-template-columns:repeat(auto, minmax(5rem, 1fr));
     grid-column-gap: 1%;
 }
 
