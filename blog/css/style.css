@@ -134,8 +134,9 @@ h1 span {
 button {
     font-size: 1.5rem;
     color: burlywood; solid;
-    background-color: darkblue;    
+    text-shadow: darkblue;    
 }
 .subsection {
-    text-align: justify;
+    text-align: left;
+
 }
