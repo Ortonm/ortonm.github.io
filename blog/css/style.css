@@ -172,3 +172,9 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1%;
 }
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 104rem;
+    min-width: 64rem;
+}
