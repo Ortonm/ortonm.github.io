@@ -133,3 +133,8 @@ h1 class span {
     background-color: rgb(173, 94, 94);
     
 }
+button {
+    font-size: 1rem;
+    text-decoration-color: burlywood;
+    background-color: darkblue;
+}
