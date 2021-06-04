@@ -199,4 +199,12 @@ nav :nth-child(even) :active {
     color: #000;
 }
 
-
+nav :nth-child(odd) :focus,
+nav :nth-child(odd) :hover,
+nav :nth-child(odd) :active {
+    text-decoration: line-through;
+    transform: rotate(-4deg);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
+}
