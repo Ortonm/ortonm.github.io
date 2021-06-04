@@ -124,6 +124,7 @@ nav :active {
 h1 {
     letter-spacing: normal;
     font-size: 2rem;
+    text-align: center;
 }
 h1 span {
     text-decoration:rgb(162, 163, 120);
