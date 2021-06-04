@@ -120,3 +120,6 @@ nav :active {
     color:black;
     background: white;
 }
+.main-section time {
+    font-size: .5rem;
+}
