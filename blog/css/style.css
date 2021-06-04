@@ -134,7 +134,8 @@ h1 span {
 button {
     font-size: 1.5rem;
     color: burlywood; solid;
-    background-color: darkblue; 
-    
-    
+    background-color: darkblue;    
+}
+.subsection {
+    text-align: justify;
 }
