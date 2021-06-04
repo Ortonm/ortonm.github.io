@@ -236,9 +236,9 @@ button {
     font-size: 1.5rem;
     text-transform: uppercase;
     background-color: #274702;
-    box-shadow: .187rem .187 rem .187rem #333;
+    box-shadow: .187rem .187rem .187rem #333;
     border: none;
-    border-radius: .25rem;
+    border-radius: .625rem;
 }
 
 button a {
