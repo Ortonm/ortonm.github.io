@@ -49,7 +49,7 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 @font-face {
     font-family:sans-serif ;
-    src: local(fonts);
+    src: ;
     font-weight: normal;
     font-style: normal;
 }
@@ -72,3 +72,11 @@
     column-gap: 1%;
 }
 
+h3 {
+
+}
+
+div {
+    border-right: black 2rem;
+    border-top: black 2rem;
+}
