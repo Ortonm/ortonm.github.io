@@ -137,4 +137,5 @@ button {
     font-size: 1.5rem;
     color: burlywood;
     background-color: darkblue;
+    background-blend-mode: overlay;
 }
