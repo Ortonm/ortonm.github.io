@@ -123,3 +123,12 @@ nav :active {
 .main-section time {
     font-size: .5rem;
 }
+h1 {
+    letter-spacing: normal;
+    font-size: 2rem;
+}
+h1 class span {
+    text-decoration:rgb(162, 163, 120);
+    background-color: rgb(173, 94, 94);
+    
+}
