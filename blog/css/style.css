@@ -48,7 +48,23 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/serif/roboto-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: ultra;
+    src: url(../fonts/serif/ultra-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    font-size: 16px;
+    font-family: roboto, arial, sans-serif;
+}
 
 .main-section {
     display: flex;
@@ -101,13 +117,7 @@ main {
 article {
     width: 75%;
 }
-footer {
-    margin: 6rem auto .5rem auto;
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1%;
-}
+
 body {
     padding: 0;
     margin: 0 auto;
@@ -115,10 +125,7 @@ body {
     min-width: 64rem;
 }
 
-html {
-    font-size: 16px;
-    font-family: roboto, arial, sans-serif;
-}
+
 img {
     width: 100%;
     display: block;
@@ -129,28 +136,7 @@ a {
     text-decoration: none;
 }
 
-@font-face {
-    font-family: roboto;
-    src: url(../fonts/serif/roboto-regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: ultra;
-    src: url(../fonts/serif/ultra-regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-nav {
-    margin: 4rem 0;
-    padding: 0 5%;
-}
-
-nav a {
-    display: inline-block;
-    padding: 2rem 6rem 2rem 0;
-}
 
 header {
     margin: 0 auto;
@@ -179,6 +165,7 @@ h1 {
     border-bottom-right-radius: 1rem;
     box-shadow: .187rem .187rem .187rem #333;
 }
+
 
 nav {
     border-top: .625rem solid #333;
@@ -210,6 +197,16 @@ nav :nth-child(odd) :active {
     font-size: 1.5rem;
     color: #000;
 }
+nav {
+    margin: 4rem 0;
+    padding: 0 5%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 2rem 6rem 2rem 0;
+}
+
 
 h2 {
     font-size: 1.5rem;
@@ -245,13 +242,7 @@ button a {
     color: #eed;
 }
 
-footer :nth-child(2) {
-    text-align: right;
-}
 
-footer a {
-    color:rgb(109, 109, 228);
-}
 
 aside :nth-child(1) {
     margin-top: 0;
@@ -273,4 +264,19 @@ aside {
     margin-left: 3%;
     padding-left: 3%;
     border-left: .625rem solid #333;
+}
+
+footer :nth-child(2) {
+    text-align: right;
+}
+
+footer a {
+    color:rgb(109, 109, 228);
+}
+footer {
+    margin: 6rem auto .5rem auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1%;
 }
