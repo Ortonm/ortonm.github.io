@@ -113,7 +113,7 @@ nav {
 }
 
 nav :focus, nav :hover {
-    color:black;
+    color:blue;
     background: white;
 }
 nav :active {
