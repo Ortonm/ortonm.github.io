@@ -67,7 +67,7 @@
 .subsection {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
-    column-gap: 1%;
+    grid-column-gap: 1%;
 }
 
 .subsection figure {
