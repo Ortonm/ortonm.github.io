@@ -92,6 +92,7 @@ aside {
     margin-right: 19%;
     width: 19%;
 }
+
 main {
     margin: 0 auto;
     width: 90%;
@@ -127,6 +128,7 @@ img {
 a {
     text-decoration: none;
 }
+
 @font-face {
     font-family: roboto;
     src: url(../fonts/serif/ultra-regular.ttf);
@@ -161,8 +163,8 @@ h1 {
     margin: 2rem 0;
     letter-spacing: .125rem;
     text-shadow: .125rem .125rem .125rem #333;
-    color: ;
-    background-color: ;
+    color:#000 ;
+    background-color:white ;
 }
 
 .highlight {
