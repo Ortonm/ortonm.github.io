@@ -92,9 +92,6 @@ footer {
     text-align:right;
 }
 
-.aside {
-
-}
 
 nav {
     padding-top: 0%;
@@ -128,7 +125,7 @@ h1 {
     letter-spacing: normal;
     font-size: 2rem;
 }
-h1 class span {
+h1 span {
     text-decoration:rgb(162, 163, 120);
     background-color: rgb(173, 94, 94);
     
