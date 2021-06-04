@@ -80,3 +80,10 @@ h3 {
     border-right:1px solid black ;
     border-top:1px solid black ;
 }
+
+.aside {
+    column-rule-style: solid;
+    column-rule-width: rule width 1px; 
+    column-rule-color: black;
+
+}
