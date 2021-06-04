@@ -102,12 +102,7 @@ html {
 
 
 
-aside {
-    clear: left;
-    margin-left: 3%;
-    margin-right: 19%;
-    width: 19%;
-}
+
 
 main {
     margin: 0 auto;
@@ -265,6 +260,13 @@ aside {
     padding-left: 3%;
     border-left: .625rem solid #333;
 }
+aside {
+    clear: left;
+    margin-left: 3%;
+    margin-right: 19%;
+    width: 19%;
+}
+
 
 footer :nth-child(2) {
     text-align: right;
