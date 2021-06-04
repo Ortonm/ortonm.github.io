@@ -81,9 +81,6 @@ h3 {
     border-top:1px solid black ;
 }
 
-.aside {
-    column-rule-style: solid;
-    column-rule-width: rule width 1px; 
-    column-rule-color: black;
-
+.footer {
+    text-align: start;
 }
