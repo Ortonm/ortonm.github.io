@@ -88,7 +88,7 @@ div aside{
 }
 
 footer {
-    text-align: left;
+    clear: both;
     text-align:right;
 }
 
@@ -135,7 +135,8 @@ h1 class span {
 }
 button {
     font-size: 1.5rem;
-    color: burlywood;
-    background-color: darkblue;
-    background-blend-mode: overlay;
+    color: burlywood; solid;
+    background-color: darkblue; 
+    
+    
 }
