@@ -76,7 +76,7 @@ h3 {
 
 }
 
-div {
+.aside div {
     border-right:1px solid black ;
     border-top:1px solid black ;
 }
