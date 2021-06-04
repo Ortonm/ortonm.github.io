@@ -208,3 +208,67 @@ nav :nth-child(odd) :active {
     font-size: 1.5rem;
     color: #000;
 }
+
+h2 {
+    font-size: 15rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+time {
+    font-style: italic;
+    font-size: .75rem;
+    margin-top: 4%;
+    padding: .125rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: ultra, garamond, serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background-color: #274702;
+    box-shadow: .187rem .187 rem .187rem #333;
+    border: none;
+    border-radius: .25rem;
+}
+
+button a {
+    color: #eed;
+}
+
+footer :nth-child(2) {
+    text-align: right;
+}
+
+footer a {
+    color: aliceblue;
+}
+
+aside :nth-child(1) {
+    margin-top: 0;
+}
+
+aside p {
+    border-bottom: .0625rem solid #333;
+    padding-bottom: 2rem;
+    font-size: .75rem;
+}
+
+.expand {
+    font-size: .25rem;
+    display: block;
+    padding-top: 5rem;
+}
+
+aside {
+    margin-left: 3%;
+    padding-left: 3%;
+    border-left: .625rem solid #333;
+}
