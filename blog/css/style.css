@@ -173,9 +173,9 @@ nav a {
     font-weight: bold;
 }
 
-nav :nth-child(even) :focus,
-nav :nth-child(even) :hover,
-nav :nth-child(even) :active {
+nav :nth-child(even):focus,
+nav :nth-child(even):hover,
+nav :nth-child(even):active {
     text-decoration: line-through;
     transform: rotate(4deg);
     text-transform: uppercase;
@@ -183,9 +183,9 @@ nav :nth-child(even) :active {
     color: #000;
 }
 
-nav :nth-child(odd) :focus,
-nav :nth-child(odd) :hover,
-nav :nth-child(odd) :active {
+nav :nth-child(odd):focus,
+nav :nth-child(odd):hover,
+nav :nth-child(odd):active {
     text-decoration: line-through;
     transform: rotate(-4deg);
     text-transform: uppercase;
